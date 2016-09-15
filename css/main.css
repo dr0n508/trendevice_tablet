@@ -327,7 +327,7 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
     text-align: center;
     margin-bottom: 10px; }
   .our-advantages li {
-    font-size: 17px;
+    font-size: 15px;
     padding: 20px 10px 20px 100px; }
   .our-advantages .advantage01 {
     background: url("../img/advantage01.png") 3% 50% no-repeat;
@@ -573,7 +573,7 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
   .product-section .wrap-input-condition {
     margin-bottom: 30px; }
   .product-section .list-description-product li {
-    font-size: 16px;
+    font-size: 15px;
     padding: 5px; }
   .product-section .list-description-product li:nth-child(odd) {
     background: #EEEEEE; }
