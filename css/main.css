@@ -95,9 +95,6 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
   .navbar-brand img {
     height: 40px; }
 
-.basket-fa i, .basket-fa-xs i, .fa-user {
-  color: #FFFFFF; }
-
 .basket-fa-xs, .user-fa-xs {
   float: right;
   padding: 9px 10px;
@@ -973,42 +970,6 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
     margin-right: 10px;
     width: 20px; }
 
-.product-basket-small {
-  margin-top: 5px; }
-  .product-basket-small h2 {
-    font-size: 24px;
-    padding: 10px 15px;
-    color: #FFFFFF;
-    background-color: #484848; }
-  .product-basket-small .sum-total-price {
-    background: #F79A1F;
-    color: #FFFFFF;
-    padding: 10px; }
-    .product-basket-small .sum-total-price .info {
-      font-size: 14px; }
-    .product-basket-small .sum-total-price .price {
-      font-size: 26px; }
-  .product-basket-small .list-products {
-    padding: 15px;
-    border-left: solid 1px #484848;
-    border-right: solid 1px #484848; }
-    .product-basket-small .list-products li {
-      font-size: 16px; }
-      .product-basket-small .list-products li a {
-        color: #484848; }
-        .product-basket-small .list-products li a:hover {
-          text-decoration: none; }
-      .product-basket-small .list-products li span {
-        float: left;
-        width: 90%; }
-        .product-basket-small .list-products li span:before {
-          content: "\2022";
-          margin-right: 5px; }
-      .product-basket-small .list-products li .delete-pruduct {
-        float: right;
-        width: 10%;
-        text-align: right; }
-
 /*****accordion-custom-styles****/
 .panel-default > .panel-heading {
   background-color: #dcdcdc;
@@ -1095,10 +1056,22 @@ footer {
   footer a {
     color: white;
     font-weight: 300;
-    margin-bottom: 5px;
-    text-decoration: none; }
+    margin-bottom: 5px; }
     footer a:hover {
       color: #FFFFFF; }
+
+.social {
+  float: left;
+  width: 30%; }
+  .social li {
+    display: inline-block; }
+  .social p {
+    margin-bottom: 5px;
+    font-weight: 300; }
+  .social .social-link {
+    text-decoration: none;
+    color: #EEEEEE;
+    margin-right: 10px; }
 
 .footer-nav {
   float: left;
@@ -1139,19 +1112,6 @@ footer {
       background: #FFFFFF;
       height: auto;
       margin-bottom: 10px; }
-
-.social {
-  float: left;
-  width: 30%; }
-  .social li {
-    display: inline-block; }
-  .social p {
-    margin-bottom: 5px;
-    font-weight: 300; }
-  .social .social-link {
-    text-decoration: none;
-    color: #EEEEEE;
-    margin-right: 10px; }
 
 .privacy-policy p {
   text-align: center;
