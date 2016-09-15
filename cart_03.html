@@ -37,25 +37,6 @@
                 <a class="navbar-brand" href="index.html">
                     <img src="img/logo.png" alt="logo"/>
                 </a>
-                <a href="#" class="basket-fa-xs visible-xs"><i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i></a>
-                <!--<a href="#" class="user-fa-xs visible-xs"><i class="fa fa-user fa-lg" aria-hidden="true"></i></a>-->
-
-                <li class="dropdown visible-xs user-fa-xs">
-                    <a href="#" class="dropdown-toggle login-user" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user fa-lg" aria-hidden="true"></i></a>
-                    <ul class="dropdown-menu menu-login-user">
-                        <li><a href="#">Indirizzi</a></li>
-                        <li><a href="#">Ordini</a></li>
-                        <li><a href="#">Impostazioni</a></li>
-                        <li><a href="#">Il mio usato</a></li>
-                        <li><a href="#">Assistenza</a></li>
-                        <li><a href="#">Disconetti</a></li>
-                    </ul>
-
-                    <ul class="dropdown-menu menu-new-user">
-                        <li class="signin"><a href="#">Accedi</a></li>
-                        <li><a href="#">Registrati</a></li>
-                    </ul>
-                </li>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -176,258 +157,239 @@
 </header>
 
 <div class="container">
-<div class="information col-md-9">
-<form action="#">
-<section class="information-client">
-<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-<div class="panel panel-default">
-    <div class="panel-heading open" role="tab" id="headingOne">
-        <h2 class="panel-title">
-            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                <span>1</span>Autenticazione
-            </a>
-        </h2>
-    </div>
-    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
-        <div class="panel-body authentication">
-            <div class="wrap-inputs col-md-6 col-sm-6">
-                <form action="">
-                    <p class="header-input">Hai già un account TrenDevice?</p>
-                    <div>
-                        <label for="email-client">Email:</label>
-                        <input type="email" id="email-client"/>
+    <div class="information col-sm-12">
+        <form action="#">
+            <section class="information-client">
+                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                    <div class="panel panel-default">
+                        <div class="panel-heading open" role="tab" id="headingOne">
+                            <h2 class="panel-title">
+                                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <span>1</span>Autenticazione
+                                </a>
+                            </h2>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                            <div class="panel-body authentication">
+                                <div class="wrap-inputs col-sm-6">
+                                    <form action="">
+                                        <p class="header-input">Hai già un account TrenDevice?</p>
+                                        <div>
+                                            <label for="email-client">Email:</label>
+                                            <input type="email" id="email-client"/>
+                                        </div>
+                                        <div>
+                                            <label for="password-client">Password:</label>
+                                            <input type="text" id="password-client"/>
+                                        </div>
+                                        <p><a href="#" class="lost-pass">Hai dimenticato la password?</a></p>
+                                        <input class="small-gray-btn" type="submit" value="Accedi"/>
+                                    </form>
+                                </div>
+                                <div class="wrap-inputs col-sm-6">
+                                    <form action="#">
+                                        <p class="header-input">Registrati</p>
+                                        <div>
+                                            <label for="email-registration">Email:</label>
+                                            <input type="email" id="email-registration"/>
+                                        </div>
+                                        <input class="small-gray-btn" type="submit" value="Registrati"/>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div>
-                        <label for="password-client">Password:</label>
-                        <input type="text" id="password-client"/>
+                    <!--<form action="">-->
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading open" role="tab" id="headingTwo">
+                            <h2 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    <span>2</span>Registrati
+                                </a>
+                            </h2>
+                        </div>
+                        <div id="collapseTwo" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingTwo">
+                            <div class="panel-body">
+                                <div class="wrap-inputs col-sm-6">
+                                    <label class="label-small" for="name-client">Nome:</label>
+                                    <input type="text" name="name-client" id="name-client"/>
+
+                                    <label class="label-small" for="email-nologin">Email:</label>
+                                    <input type="email" name="email-nologin" id="email-nologin"/>
+
+                                    <label class="label-small" for="password-nologin">Password:</label>
+                                    <input type="text" name="password-nologin" id="password-nologin"/>
+
+                                    <label class="label-small" for="address-client">Indirizzo:</label>
+                                    <input type="text" name="address-client" id="address-client"/>
+
+                                    <label class="label-small" for="city-client">Città:</label>
+                                    <input type="text" name="city-client" id="city-client"/>
+
+                                    <label class="label-small" for="state-client">Stato:</label>
+                                    <input type="text" name="state-client" id="state-client"/>
+
+                                    <label class="label-small" for="tax-client">Codice fiscale:</label>
+                                    <input type="text" name="tax-client" id="tax-client"/>
+
+                                    <label class="label-small" for="phone-client">Telefono:</label>
+                                    <input type="text" name="phone-client" id="phone-client"/>
+                                </div>
+
+                                <div class="wrap-inputs col-sm-6">
+                                    <label class="label-small" for="surname-client">Cognome:</label>
+                                    <input type="text" name="surname-client" id="surname-client"/>
+
+                                    <label class="label-small" for="email-confirm">Conferma Email:</label>
+                                    <input type="email" name="email-confirm" id="email-confirm"/>
+
+                                    <label class="label-small" for="password-confirm">Conferma Password:</label>
+                                    <input type="text" name="password-confirm" id="password-confirm"/>
+
+                                    <label class="label-small" for="post-code-client">Cap:</label>
+                                    <input type="text" name="post-code-client" id="post-code-client"/>
+
+                                    <label class="label-small" for="province-client">Provincia:</label>
+                                    <input type="text" name="province-client" id="province-client"/>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <p><a href="#" class="lost-pass">Hai dimenticato la password?</a></p>
-                    <input class="small-gray-btn" type="submit" value="Accedi"/>
-                </form>
-            </div>
-            <div class="wrap-inputs col-md-6 col-sm-6">
-                <form action="#">
-                    <p class="header-input">Registrati</p>
-                    <div>
-                        <label for="email-registration">Email:</label>
-                        <input type="email" id="email-registration"/>
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingThree">
+                            <h2 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="disabled" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    <span>3</span>Indirizzo di spedizione
+                                </a>
+                            </h2>
+                        </div>
+
+                        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                            <div class="panel-body">
+                                <div class="wrap-custom-input">
+                                    <input class="radio-custom-card" type="radio" id="delivery-address-available" name="delivery-address-client" value="delivery-address-available"/>
+                                    <label class="radio-custom-card-label" for="delivery-address-available"></label>
+                                    <label class="header-input" for="delivery-address-available">Utilizza il tuo indirizzo</label>
+                                </div>
+                                <address><p>Alice Lolli</p>
+                                    <p>Via costozza</p>
+                                    <p>40032 Camugnano (BO) - Italy</p>
+                                    <p>Tel. 3347312434</p>
+                                </address>
+                                <div class="wrap-custom-input">
+                                    <input class="radio-custom-card" type="radio" id="delivery-address-new" name="delivery-address-client" value="delivery-address-new"/>
+                                    <label class="radio-custom-card-label" for="delivery-address-new"></label>
+                                    <label class="header-input" for="delivery-address-new">Inserisci i dati di spedizione</label>
+                                </div>
+                                <div id="inputs-delivery-information">
+                                    <div class="wrap-inputs col-sm-6">
+                                        <label class="label-small" for="delivery-name-client">Nome:</label>
+                                        <input type="text" name="delivery-name-client" id="delivery-name-client"/>
+
+                                        <label class="label-small" for="delivery-address-client">Indirizzo:</label>
+                                        <input type="text" name="delivery-address-client" id="delivery-address-client"/>
+
+                                        <label class="label-small" for="delivery-city-client">Città:</label>
+                                        <input type="text" name="delivery-city-client" id="delivery-city-client"/>
+
+                                        <label class="label-small" for="delivery-state-client">Stato:</label>
+                                        <input type="text" name="delivery-state-client" id="delivery-state-client"/>
+
+                                        <label class="label-small" for="delivery-phone-client">Telefono:</label>
+                                        <input type="text" name="delivery-phone-client" id="delivery-phone-client"/>
+                                    </div>
+
+                                    <div class="wrap-inputs col-sm-6">
+                                        <label class="label-small" for="delivery-surname-client">Cognome:</label>
+                                        <input type="text" name="delivery-surname-client" id="delivery-surname-client"/>
+
+                                        <label class="label-small" for="delivery-post-code-client">Cap:</label>
+                                        <input type="text" name="delivery-post-code-client" id="delivery-post-code-client"/>
+
+                                        <label class="label-small" for="delivery-province-client">Provincia:</label>
+                                        <input type="text" name="delivery-province-client" id="delivery-province-client"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <input class="small-gray-btn" type="submit" value="Registrati"/>
-                </form>
-            </div>
-        </div>
-    </div>
-</div>
-<!--<form action="">-->
 
-<div class="panel panel-default">
-    <div class="panel-heading open" role="tab" id="headingTwo">
-        <h2 class="panel-title">
-            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                <span>2</span>Registrati
-            </a>
-        </h2>
-    </div>
-    <div id="collapseTwo" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingTwo">
-        <div class="panel-body">
-            <div class="wrap-inputs col-lg-6">
-                <label class="label-small" for="name-client">Nome:</label>
-                <input type="text" name="name-client" id="name-client"/>
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingFour">
+                            <h2 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="disabled" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    <span>4</span>Metodo di pagamento
+                                </a>
+                            </h2>
+                        </div>
+                        <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                            <div class="panel-body">
+                                <div class="wrap-custom-input">
+                                    <input class="radio-custom-card" type="radio" name="payment-method" value="card" id="card"/>
+                                    <label class="radio-custom-card-label" for="card"></label>
+                                    <label for="card"><i class="fa fa-credit-card" aria-hidden="true">
+                                    </i>Carta di credito <span>(MasterCard, Visa, American Express)</span>
+                                    </label>
+                                </div>
+                                <div class="wrap-custom-input">
+                                    <input class="radio-custom-card" type="radio" name="payment-method" value="paypal" id="paypal"/>
+                                    <label class="radio-custom-card-label" for="paypal"></label>
+                                    <label for="paypal">
+                                        <i class="fa fa-cc-paypal" aria-hidden="true"></i>PayPal</label>
+                                </div>
+                                <div class="wrap-custom-input">
+                                    <input class="radio-custom-card" type="radio" name="payment-method" value="cash" id="cash"/>
+                                    <label class="radio-custom-card-label" for="cash"></label>
+                                    <label for="cash">
+                                        <i class="fa fa-file-text-o" aria-hidden="true"></i>Pagamento alla consegna <span>(no costi extra)</span>
+                                    </label>
+                                </div>
+                                <div class="wrap-custom-input">
+                                    <input class="radio-custom-card" type="radio" name="payment-method" value="bank-transfer" id="bank-transfer"/>
+                                    <label class="radio-custom-card-label" for="bank-transfer"></label>
+                                    <label for="bank-transfer">
+                                        <i class="fa fa-university" aria-hidden="true"></i>Bonifico bancario anticipato</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-                <label class="label-small" for="email-nologin">Email:</label>
-                <input type="email" name="email-nologin" id="email-nologin"/>
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingFive">
+                            <h2 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="disabled" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    <span>5</span>Metodo di spedizione
+                                </a>
+                            </h2>
+                        </div>
+                        <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+                            <div class="panel-body">
 
-                <label class="label-small" for="password-nologin">Password:</label>
-                <input type="text" name="password-nologin" id="password-nologin"/>
+                                <div class="wrap-custom-input">
+                                    <input class="radio-custom-card" type="radio" name="shipping-method" value="standart-shipping" id="standart-shipping"/>
+                                    <label class="radio-custom-card-label" for="standart-shipping"></label>
+                                    <label for="standart-shipping">
+                                        Corriere Standard  (9.90 €) - <span>Ricevi l'ordine entro 72 ore da oggi</span>
+                                    </label>
+                                </div>
+                                <div class="wrap-custom-input">
+                                    <input class="radio-custom-card" checked type="radio" name="shipping-method" value="express-shipping" id="express-shipping"/>
+                                    <label class="radio-custom-card-label" for="express-shipping"></label>
+                                    <label for="express-shipping">
+                                        Spedizione Urgente  (14.90 €) - <span>Ricevi l'ordine Domani. Valido per ordini effettuati entro le 13:00, lun-ven.</span>
+                                    </label>
+                                </div>
+                                <input class="big-yellow-btn pull-right" type="submit" value="Procedi"/>
 
-                <label class="label-small" for="address-client">Indirizzo:</label>
-                <input type="text" name="address-client" id="address-client"/>
-
-                <label class="label-small" for="city-client">Città:</label>
-                <input type="text" name="city-client" id="city-client"/>
-
-                <label class="label-small" for="state-client">Stato:</label>
-                <input type="text" name="state-client" id="state-client"/>
-
-                <label class="label-small" for="tax-client">Codice fiscale:</label>
-                <input type="text" name="tax-client" id="tax-client"/>
-
-                <label class="label-small" for="phone-client">Telefono:</label>
-                <input type="text" name="phone-client" id="phone-client"/>
-            </div>
-
-            <div class="wrap-inputs col-lg-6">
-                <label class="label-small" for="surname-client">Cognome:</label>
-                <input type="text" name="surname-client" id="surname-client"/>
-
-                <label class="label-small" for="email-confirm">Conferma Email:</label>
-                <input type="email" name="email-confirm" id="email-confirm"/>
-
-                <label class="label-small" for="password-confirm">Conferma Password:</label>
-                <input type="text" name="password-confirm" id="password-confirm"/>
-
-                <label class="label-small" for="post-code-client">Cap:</label>
-                <input type="text" name="post-code-client" id="post-code-client"/>
-
-                <label class="label-small" for="province-client">Provincia:</label>
-                <input type="text" name="province-client" id="province-client"/>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingThree">
-        <h2 class="panel-title">
-            <a class="collapsed" role="button" data-toggle="disabled" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                <span>3</span>Indirizzo di spedizione
-            </a>
-        </h2>
-    </div>
-
-    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-        <div class="panel-body">
-            <div class="wrap-custom-input">
-                <input class="radio-custom-card" type="radio" id="delivery-address-available" name="delivery-address-client" value="delivery-address-available"/>
-                <label class="radio-custom-card-label" for="delivery-address-available"></label>
-                <label class="header-input" for="delivery-address-available">Utilizza il tuo indirizzo</label>
-            </div>
-            <address><p>Alice Lolli</p>
-                <p>Via costozza</p>
-                <p>40032 Camugnano (BO) - Italy</p>
-                <p>Tel. 3347312434</p>
-            </address>
-            <div class="wrap-custom-input">
-                <input class="radio-custom-card" type="radio" id="delivery-address-new" name="delivery-address-client" value="delivery-address-new"/>
-                <label class="radio-custom-card-label" for="delivery-address-new"></label>
-                <label class="header-input" for="delivery-address-new">Inserisci i dati di spedizione</label>
-            </div>
-            <div id="inputs-delivery-information">
-                <div class="wrap-inputs col-md-6">
-                    <label class="label-small" for="delivery-name-client">Nome:</label>
-                    <input type="text" name="delivery-name-client" id="delivery-name-client"/>
-
-                    <label class="label-small" for="delivery-address-client">Indirizzo:</label>
-                    <input type="text" name="delivery-address-client" id="delivery-address-client"/>
-
-                    <label class="label-small" for="delivery-city-client">Città:</label>
-                    <input type="text" name="delivery-city-client" id="delivery-city-client"/>
-
-                    <label class="label-small" for="delivery-state-client">Stato:</label>
-                    <input type="text" name="delivery-state-client" id="delivery-state-client"/>
-
-                    <label class="label-small" for="delivery-phone-client">Telefono:</label>
-                    <input type="text" name="delivery-phone-client" id="delivery-phone-client"/>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-
-                <div class="wrap-inputs col-md-6">
-                    <label class="label-small" for="delivery-surname-client">Cognome:</label>
-                    <input type="text" name="delivery-surname-client" id="delivery-surname-client"/>
-
-                    <label class="label-small" for="delivery-post-code-client">Cap:</label>
-                    <input type="text" name="delivery-post-code-client" id="delivery-post-code-client"/>
-
-                    <label class="label-small" for="delivery-province-client">Provincia:</label>
-                    <input type="text" name="delivery-province-client" id="delivery-province-client"/>
-                </div>
-            </div>
-        </div>
+            </section>
+        </form>
     </div>
 </div>
-
-<div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingFour">
-        <h2 class="panel-title">
-            <a class="collapsed" role="button" data-toggle="disabled" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                <span>4</span>Metodo di pagamento
-            </a>
-        </h2>
-    </div>
-    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
-        <div class="panel-body">
-            <div class="wrap-custom-input">
-                <input class="radio-custom-card" type="radio" name="payment-method" value="card" id="card"/>
-                <label class="radio-custom-card-label" for="card"></label>
-                <label for="card"><i class="fa fa-credit-card" aria-hidden="true">
-                </i>Carta di credito <span>(MasterCard, Visa, American Express)</span>
-                </label>
-            </div>
-            <div class="wrap-custom-input">
-                <input class="radio-custom-card" type="radio" name="payment-method" value="paypal" id="paypal"/>
-                <label class="radio-custom-card-label" for="paypal"></label>
-                <label for="paypal">
-                    <i class="fa fa-cc-paypal" aria-hidden="true"></i>PayPal</label>
-            </div>
-            <div class="wrap-custom-input">
-                <input class="radio-custom-card" type="radio" name="payment-method" value="cash" id="cash"/>
-                <label class="radio-custom-card-label" for="cash"></label>
-                <label for="cash">
-                    <i class="fa fa-file-text-o" aria-hidden="true"></i>Pagamento alla consegna <span>(no costi extra)</span>
-                </label>
-            </div>
-            <div class="wrap-custom-input">
-                <input class="radio-custom-card" type="radio" name="payment-method" value="bank-transfer" id="bank-transfer"/>
-                <label class="radio-custom-card-label" for="bank-transfer"></label>
-                <label for="bank-transfer">
-                    <i class="fa fa-university" aria-hidden="true"></i>Bonifico bancario anticipato</label>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingFive">
-        <h2 class="panel-title">
-            <a class="collapsed" role="button" data-toggle="disabled" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                <span>5</span>Metodo di spedizione
-            </a>
-        </h2>
-    </div>
-    <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
-        <div class="panel-body">
-
-            <div class="wrap-custom-input">
-                <input class="radio-custom-card" type="radio" name="shipping-method" value="standart-shipping" id="standart-shipping"/>
-                <label class="radio-custom-card-label" for="standart-shipping"></label>
-                <label for="standart-shipping">
-                    Corriere Standard  (9.90 €) - <span>Ricevi l'ordine entro 72 ore da oggi</span>
-                </label>
-            </div>
-            <div class="wrap-custom-input">
-                <input class="radio-custom-card" checked type="radio" name="shipping-method" value="express-shipping" id="express-shipping"/>
-                <label class="radio-custom-card-label" for="express-shipping"></label>
-                <label for="express-shipping">
-                    Spedizione Urgente  (14.90 €) - <span>Ricevi l'ordine Domani. Valido per ordini effettuati entro le 13:00, lun-ven.</span>
-                </label>
-            </div>
-            <input class="big-yellow-btn pull-right" type="submit" value="Procedi"/>
-
-        </div>
-    </div>
-</div>
-</div>
-</section>
-</form>
-</div>
-<div class="product-basket-small col-md-3">
-    <h2>Carrello</h2>
-    <ul class="list-products">
-        <li class="clearfix">
-            <span><a href="#">iPhone 6 Plus 128 GB Grigio siderale (Ricondizionato)</a></span>
-            <a href="#" class="delete-pruduct fa fa-times" aria-hidden="true"></a>
-        </li>
-        <li class="clearfix">
-            <span><a href="#">iPad 2 32 GB Wi-Fi + Cell Bianco (Ricondizionato)</a></span>
-            <a href="#" class="delete-pruduct fa fa-times" aria-hidden="true"></a>
-        </li>
-    </ul>
-    <div class="sum-total-price">
-        <p class="info">prezzo finale (IVA inclusa):</p>
-        <p class="price">859,80 €</p>
-    </div>
-</div>
-</div>
-
-
 
 <section class="advantages">
     <div class="container">
@@ -452,32 +414,10 @@
     </div>
 </section>
 <footer>
-    <div class="container clearfix">
+    <div class="container-fluid clearfix">
         <div class="row">
-            <div class="col-md-2 footer-block">
-                <ul>
-                    <li><a href="#">Chi siamo</a></li>
-                    <li><a href="#">Info e Contatti</a></li>
-                    <li><a href="#">Media</a></li>
-                    <li><a href="#">FAQ</a></li>
-                </ul>
-            </div>
-            <div class="col-md-2 footer-block">
-                <ul>
-                    <li><a href="#">Condizioni di Privacy</a></li>
-                    <li><a href="#">Spedizioni e Resi</a></li>
-                    <li><a href="#">Eco- friendly</a></li>
-                </ul>
-            </div>
-            <div class="col-md-2 footer-block">
-                <ul>
-                    <li><a href="#">Vendi</a></li>
-                    <li><a href="#">I Vantaggi TrenDevice</a></li>
-                    <li><a href="#">Aziende</a></li>
-                </ul>
-            </div>
-            <div class="col-md-2 social footer-block">
-                <p>Seguici su:</p>
+            <div class="social footer-block">
+                <p>SEGUICI!</p>
                 <ul>
                     <li>
                         <a class="social-link" href="#"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
@@ -493,12 +433,24 @@
                     </li>
                 </ul>
             </div>
-            <div class="rewards col-md-4 footer-block">
-                <div class="left-block col-md-4 col-md-offset-2">
-                    <img src="img/sigilloSI.PNG" alt="siglito"/>
+            <div class="footer-block footer-nav">
+                <div class="wrap-footer-nav clearfix">
+                    <ul class="menu1">
+                        <li><a href="#">Chi siamo</a></li>
+                        <li><a href="#">Info e Contatti</a></li>
+                        <li><a href="#">Media</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                    <ul class="menu2">
+                        <li><a href="#">Spedizioni e Resi</a></li>
+                        <li><a href="#">Vendi</a></li>
+                        <li><a href="#">I Vantaggi TrenDevice</a></li>
+                        <li><a href="#">Aziende</a></li>
+                    </ul>
                 </div>
-                <div class="right-block col-md-6">
-
+            </div>
+            <div class="rewards footer-block">
+                <div class="right-block">
                     <!--widget code taken from the site http://www.trendevice.com/-->
                     <div class="widget_merchant">
                         <div class="fdt_widget">
@@ -542,24 +494,14 @@
                     <!--END widget code -->
                     <img src="img/associato-confindustria.png" alt="associato-confindustria"/>
                 </div>
+                <div class="left-block">
+                    <img src="img/sigilloSI.PNG" alt="siglito"/>
+                </div>
             </div>
         </div>
-        <div class="payment-copywrigth row">
-            <div class="payment col-md-6">
-                <span>ACQUISTI SICURI ONLINE CON</span>
-                <ul>
-                    <li><a href="#"><img src="img/payment-visa.jpg" alt="visa"/></a></li>
-                    <li><a href="#"><img src="img/payment-amex.jpg" alt="amex"/></a></li>
-                    <li><a href="#"><img src="img/payment-mc.jpg" alt="mc"/></a></li>
-                    <li><a href="#"><img src="img/payment-maestro.jpg" alt="maestro"/></a></li>
-                    <li><a href="#"><img src="img/payment-visaE.jpg" alt="visa-electron"/></a></li>
-                    <li><a href="#"><img src="img/payment-paypal.jpg" alt="paypal"/></a></li>
-                    <li><a href="#"><img src="img/payment-postpay.jpg" alt="postpay"/></a></li>
-                </ul>
-            </div>
-            <div class="privacy-policy col-md-6 clearfix">
-                <p>Panta Rei S.r.l. - P.I. 02162920645 - Cap. Soc. 100.000 € i.v. - Privacy Policy</p>
-            </div>
+
+        <div class="privacy-policy clearfix">
+            <p>Panta Rei S.r.l. - P.I. 02162920645 - Cap. Soc. 100.000 € i.v. - Privacy Policy</p>
         </div>
     </div>
 </footer>
