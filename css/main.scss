@@ -367,7 +367,7 @@ $white-color: #FFFFFF;
 /****************************************home-iphone*********************************/
 /************************************************************************************/
 .photo-product-models {
-  padding-top: 110px;
+  padding-top: 75px;
   text-align: center;
   img {
     max-width: 90%;
@@ -377,9 +377,9 @@ $white-color: #FFFFFF;
 
 .select-model-product {
   h1 {
-    font-size: 38px;
+    font-size: 25px;
     color: $blue-color;
-    margin: 50px 0 20px;
+    margin: 20px 0 20px;
     text-align: center;
   }
 }
@@ -395,10 +395,12 @@ $white-color: #FFFFFF;
 }
 
 .list-models-products {
+  padding-left: 2px;
+  padding-right: 2px;
   li {
     padding: 3px 5px;
     a {
-      font-size: 24px;
+      font-size: 20px;
       color: $dark-gray-color;
       background: $light-gray-color;
       padding: 5px 20px;
@@ -421,7 +423,7 @@ $white-color: #FFFFFF;
 }
 
 .our-advantages {
-  padding: 50px 0;
+  padding-top: 20px;
   .container {
     background: $light-gray-color;
     padding: 20px;
@@ -453,82 +455,79 @@ $white-color: #FFFFFF;
   }
 }
 
-.offer {
-  .container {
-    padding: 0;
-  }
-  .slide {
-    background: $light-gray-color;
-    height: 220px;
-    .img-wrapper {
-      width: 50%;
-      height: 220px;
-      position: relative;
-      img {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        width: 85%;
-        height: auto;
-        margin: auto;
-      }
-    }
-    .offer-wrapper {
-      width: 50%;
-      padding: 70px 20px 20px 0;
-      h3 {
-        font-size: 25px;
-        font-weight: 600;
-        margin-bottom: 5px;
-      }
-      .small-yellow-btn {
-        width: 100%;
-        display: inline-block;
-        font-size: 20px;
-        text-align: center;
-      }
-    }
-  }
-  .quick-offer {
-    text-align: center;
-    position: relative;
-    .offer-wrapper {
-      width: 100%;
-      padding: 10px 10px 0;
-//      text-align: center;
-      h3 {
-        font-size: 25px;
-      }
-    }
-    .img-wrapper-quick-offer {
-      img {
-        width: auto;
-        max-height: 100px;
-        margin: 0 auto;
-      }
-    }
-    .small-yellow-btn {
-      position: absolute;
-      bottom: 15px;
-      width: 70%;
-      left: 50%;
-      margin-left: -35%;
-      font-size: 16px;
-    }
-  }
-}
+//.offer {
+//  .container {
+//    padding: 0;
+//  }
+//  .slide {
+//    background: $light-gray-color;
+//    height: 220px;
+//    .img-wrapper {
+//      width: 50%;
+//      height: 220px;
+//      position: relative;
+//      img {
+//        position: absolute;
+//        top: 0;
+//        bottom: 0;
+//        left: 0;
+//        right: 0;
+//        width: 85%;
+//        height: auto;
+//        margin: auto;
+//      }
+//    }
+//    .offer-wrapper {
+//      width: 50%;
+//      padding: 70px 20px 20px 0;
+//      h3 {
+//        font-size: 25px;
+//        font-weight: 600;
+//        margin-bottom: 5px;
+//      }
+//      .small-yellow-btn {
+//        width: 100%;
+//        display: inline-block;
+//        font-size: 20px;
+//        text-align: center;
+//      }
+//    }
+//  }
+//  .quick-offer {
+//    text-align: center;
+//    position: relative;
+//    .offer-wrapper {
+//      width: 100%;
+//      padding: 10px 10px 0;
+////      text-align: center;
+//      h3 {
+//        font-size: 25px;
+//      }
+//    }
+//    .img-wrapper-quick-offer {
+//      img {
+//        width: auto;
+//        max-height: 100px;
+//        margin: 0 auto;
+//      }
+//    }
+//    .small-yellow-btn {
+//      position: absolute;
+//      bottom: 15px;
+//      width: 70%;
+//      left: 50%;
+//      margin-left: -35%;
+//      font-size: 16px;
+//    }
+//  }
+//}
 
 /**********************************iphone6*******************************************/
 /************************************************************************************/
 
 .version-product {
   h1 {
-    background: url("../img/bg-iphone6.jpg") no-repeat 50% 0%;
-    background-size: cover;
-    padding: 20px 20px 100px 20px;
-    margin-bottom: 50px;
+    padding: 20px 20px 0;
     font-size: 44px;
     color: $blue-color;
     font-weight: 600;
@@ -536,20 +535,20 @@ $white-color: #FFFFFF;
   .info-product {
     font-weight: 300;
     font-size: 18px;
-    padding-top: 25px;
+//    padding-top: 25px;
     margin-bottom: 25px;
   }
-  .model:not(.not-available) img {
-    &:hover {
-      cursor: pointer;
-      -moz-transform: scale(1.05);
-      -ms-transform: scale(1.05);
-      -webkit-transform: scale(1.05);
-      -o-transform: scale(1.05);
-      transform: scale(1.05);
-      @extend .transition;
-    }
-  }
+//  .model:not(.not-available) img {
+//    &:hover {
+//      cursor: pointer;
+//      -moz-transform: scale(1.05);
+//      -ms-transform: scale(1.05);
+//      -webkit-transform: scale(1.05);
+//      -o-transform: scale(1.05);
+//      transform: scale(1.05);
+//      @extend .transition;
+//    }
+//  }
   .model.not-available a {
     pointer-events: none;
   }
@@ -562,7 +561,7 @@ $white-color: #FFFFFF;
       img {
         width: auto;
         height: 100%;
-        @extend .transition;
+//        @extend .transition;
       }
       span {
         position: absolute;
@@ -860,58 +859,64 @@ $white-color: #FFFFFF;
     }
   }
   label[for="number-product"] {
-    font-size: 21px;
+    font-size: 16px;
     font-weight: 400;
     margin: 10px 0;
   }
   .wrap-buy {
-    padding: 0 40px;
-    text-align: right;
+    padding: 10px 15px;
+    text-align: left;
+  }
+  .wrap-price {
+    width: 70%;
+    float: left;
+  }
+  .wrap-number {
+    width: 30%;
+    float: left;
   }
   #number-product {
-    width: 70px;
+    width: 40px;
     padding: 5px;
-    font-size: 21px;
+    font-size: 16px;
     border: solid 1px $light-gray-color;
   }
 
   .buy-btn {
     color: $white-color;
     background: $yellow-color;
-    font-size: 31px;
+    font-size: 30px;
     text-align: center;
     width: 100%;
     border: none;
     outline: none;
-    &:hover {
-      background-color: #f8b76f;
-    }
+    padding: 10px 0;
   }
   .buy-btn[disabled] {
     background-color: #dcdcdc;
   }
-  .list-bonus {
-    margin-top: 20px;
-    text-align: left;
-    li {
-      font-size: 15px;
-      font-weight: 300;
-      margin-bottom: 10px;
-      position: relative;
-      padding: 0 0 0 25px;
-      &:before {
-        content: "";
-        position: absolute;
-        width: 20px;
-        height: 21px;
-        display: inline-block;
-        background: url("../img/check-ico.png") 50% 50% no-repeat;
-        background-size: 100%;
-        top: 0;
-        left: 0;
-      }
-    }
-  }
+//  .list-bonus {
+//    margin-top: 20px;
+//    text-align: left;
+//    li {
+//      font-size: 15px;
+//      font-weight: 300;
+//      margin-bottom: 10px;
+//      position: relative;
+//      padding: 0 0 0 25px;
+//      &:before {
+//        content: "";
+//        position: absolute;
+//        width: 20px;
+//        height: 21px;
+//        display: inline-block;
+//        background: url("../img/check-ico.png") 50% 50% no-repeat;
+//        background-size: 100%;
+//        top: 0;
+//        left: 0;
+//      }
+//    }
+//  }
   .wrap-img-product {
     text-align: center;
     img {
@@ -954,16 +959,17 @@ $white-color: #FFFFFF;
 /*******************/
 .price-product {
   font-weight: 600;
-  font-size: 35px !important;
+  font-size: 26px !important;
   text-align: center;
   border: solid 1px $light-gray-color;
-  padding: 10px 0;
+  padding: 5px 0;
+  margin-top: 4px;
   position: relative;
   .old-price {
     text-align: center;
     width: 80px;
     display: none;
-    font-size: 20px;
+    font-size: 18px;
     .price,  {
       display: inline-block;
       font-weight: 300;
