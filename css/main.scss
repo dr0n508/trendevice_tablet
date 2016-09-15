@@ -1114,7 +1114,7 @@ $white-color: #FFFFFF;
       padding-left: 94px;
       font-size: 14px;
       color: $dark-gray-color;
-      text-decoration: underline;
+      text-decoration: underline !important;
     }
     .small-gray-btn {
       font-size: 18px;
