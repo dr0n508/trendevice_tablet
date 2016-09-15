@@ -68,12 +68,6 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
     color: #FFFFFF;
     text-decoration: none !important; }
 
-.transition {
-  -webkit-transition: 0.3s linear;
-  -moz-transition: 0.3s linear;
-  -o-transition: 0.3s linear;
-  transition: 0.3s linear; }
-
 /************************************header-navigation*******************************/
 /************************************************************************************/
 .navbar-nav {
@@ -170,7 +164,7 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
   min-width: 400px; }
 
 .dropdown-menu.columns-3 {
-  min-width: 600px; }
+  min-width: 450px; }
 
 .multi-column-dropdown {
   list-style: none; }

@@ -10,16 +10,6 @@ $(document).ready(function () {
         infiniteLoop: false
     });
 
-    $('.offer-for-you').bxSlider({
-        slideWidth: 380,
-        minSlides: 1,
-        maxSlides: 3,
-        moveSlides: 1,
-        slideMargin: 10,
-        pager: false,
-        infiniteLoop: false
-    });
-
     $(".radio-custom-color-input").change(function() {
         $('.selected-color').empty();
         var productCategory = $('.product-section').attr("id").split('-')[0];
