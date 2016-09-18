@@ -37,6 +37,25 @@
                 <a class="navbar-brand" href="index.html">
                     <img src="img/logo.png" alt="logo"/>
                 </a>
+                <a href="#" class="basket-fa-xs visible-xs"><i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i></a>
+                <!--<a href="#" class="user-fa-xs visible-xs"><i class="fa fa-user fa-lg" aria-hidden="true"></i></a>-->
+
+                <li class="dropdown visible-xs user-fa-xs">
+                    <a href="#" class="dropdown-toggle login-user" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user fa-lg" aria-hidden="true"></i></a>
+                    <ul class="dropdown-menu menu-login-user">
+                        <li><a href="#">Indirizzi</a></li>
+                        <li><a href="#">Ordini</a></li>
+                        <li><a href="#">Impostazioni</a></li>
+                        <li><a href="#">Il mio usato</a></li>
+                        <li><a href="#">Assistenza</a></li>
+                        <li><a href="#">Disconetti</a></li>
+                    </ul>
+
+                    <ul class="dropdown-menu menu-new-user">
+                        <li class="signin"><a href="#">Accedi</a></li>
+                        <li><a href="#">Registrati</a></li>
+                    </ul>
+                </li>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -155,24 +174,24 @@
         </div><!-- /.container-fluid -->
     </nav>
 </header>
-<section id="iPhone-6" class="product-section">
-    <div class="container-fluid">
-        <h1>iPHONE 6 16 Gb</h1>
+<section id="iPad-4" class="product-section">
+    <div class="container">
+        <h1>iPad 4 64 Gb</h1>
         <form action="#">
-            <div class="col-sm-12">
-                <div class="col-sm-5">
+            <div class="col-lg-8 col-md-8 col-sm-12">
+                <div class="col-lg-4 col-md-5 col-sm-5">
                     <!--start tabs-->
                     <div>
                         <!-- Tab panes -->
                         <div class="tab-content">
                             <div role="tabpanel" class="tab-pane active" id="home">
                                 <div class="wrap-img">
-                                    <img src="img/products-img/iPhone/6/6_grigio-siderale.png">
+                                    <img src="img/products-img/iPad/4/4_bianco.png">
                                 </div>
                             </div>
                             <div role="tabpanel" class="tab-pane fade" id="profile">
                                 <div class="wrap-img">
-                                    <img src="img/products-img/iPhone/6/6_grigio-siderale_b.png">
+                                    <img src="img/products-img/iPad/4/4_bianco_b.png">
                                 </div>
                             </div>
                         </div>
@@ -180,29 +199,36 @@
                         <ul class="nav nav-tabs" role="tablist">
                             <li role="presentation" class="active">
                                 <a href="#home" aria-controls="home" role="tab" data-toggle="tab">
-                                    <img src="img/products-img/iPhone/6/6_grigio-siderale.png">
+                                    <img src="img/products-img/iPad/4/4_bianco.png">
                                 </a>
                             </li>
                             <li role="presentation">
                                 <a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">
-                                    <img src="img/products-img/iPhone/6/6_grigio-siderale_b.png">
+                                    <img src="img/products-img/iPad/4/4_bianco_b.png">
                                 </a>
                             </li>
                         </ul>
                     </div>
                     <!--end tabs-->
                 </div>
-                <div class="col-sm-7">
+                <div class="col-lg-8 col-md-7 col-sm-7">
+
+                    <p class="label-condition">Tipo di connessione:</p>
+                    <div class="wrap-input-condition" group-radio-inputs>
+                        <input class="radio-custom-btn-input" type="radio" id="wifi-only" name="wireless-connection" value="wifi-only"/>
+                        <label class="radio-custom-btn-label" for="wifi-only"><span>Wi-Fi</span></label>
+
+                        <input class="radio-custom-btn-input"  type="radio" id="wifi-cell" name="wireless-connection" value="wifi-cell"/>
+                        <label class="radio-custom-btn-label" for="wifi-cell"><span>Wi-Fi + Cell</span></label>
+                    </div>
+
                     <p class="label-condition">Colore:</p>
                     <div class="wrap-color-inputs" group-radio-inputs>
-                        <input class="radio-custom-color-input" type="radio" id="grigio-siderale" name="color-product" value="Grigio Siderale"/>
-                        <label class="radio-custom-color-label" for="grigio-siderale"><span></span></label>
+                        <input class="radio-custom-color-input" type="radio" id="bianco" name="color-product" value="Bianco"/>
+                        <label class="radio-custom-color-label" for="bianco"><span></span></label>
 
-                        <input class="radio-custom-color-input" type="radio" id="argento" name="color-product" value="Argento"/>
-                        <label class="radio-custom-color-label" for="argento"><span></span></label>
-
-                        <input class="radio-custom-color-input" type="radio" id="oro" name="color-product" value="Oro"/>
-                        <label class="radio-custom-color-label" for="oro"><span></span></label>
+                        <input class="radio-custom-color-input" type="radio" id="nero" name="color-product" value="Nero"/>
+                        <label class="radio-custom-color-label" for="nero"><span></span></label>
                     </div>
                     <span class="selected-color"></span>
 
@@ -224,25 +250,26 @@
                         <li>Garanzia: Garanzia 2 anni TrenDevice</li>
                         <li>Diritto di Recesso: 14 giorni dalla ricezione zero costi per te</li>
                     </ul>
-                    <div class="wrap-buy row">
-                        <div class="wrap-number">
-                            <label for="number-product">Quantità:</label>
-                            <input type="number" min="1" id="number-product" name="number-product" value="1"/>
-                        </div>
-                        <div class="wrap-price">
-                            <p class="price-product">
-                            <span class="old-price">
-                                <span class="price">599.90€</span>
-                                <span class="discount-percent">-20%</span>
-                            </span>
-                                519.90€
-                            </p>
-                            <button class="buy-btn" disabled type="submit">COMPRA ADESSO</button>
-                        </div>
-                    </div>
                 </div>
             </div>
-
+            <div class="col-lg-4 col-md-4 col-sm-12 wrap-buy">
+                <label for="number-product">Quantità:</label>
+                <input type="number" min="1" id="number-product" name="number-product" value="1"/>
+                <p class="price-product sale">
+                    <span class="old-price">
+                        <span class="price">599.90€</span>
+                        <span class="discount-percent">-20%</span>
+                    </span>
+                    519.90€
+                </p>
+                <button class="buy-btn" disabled type="submit">COMPRA ADESSO</button>
+                <ul class="list-bonus">
+                    <li>Garanzia 2 anni</li>
+                    <li>Pagamento alla consegna zero costi</li>
+                    <li>Soddisfatto o Rimborsato 100%</li>
+                    <li>Reso gratis entro 14 giorni</li>
+                </ul>
+            </div>
         </form>
     </div>
 </section>
@@ -269,6 +296,68 @@
         </ul>
     </div>
 </section>
+
+<section class="offer">
+    <div class="container">
+        <div class="offer-for-you">
+            <div class="slide">
+                <div class="img-wrapper pull-left">
+                    <img src="img/offer1.png" alt="offer1"/>
+                </div>
+                <div class="offer-wrapper pull-left">
+                    <h3>iPad Air</h3>
+                    <a href="#" class="small-yellow-btn">scopri di più</a>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="img-wrapper pull-left">
+                    <img src="img/offer2.png" alt="offer2"/>
+                </div>
+                <div class="offer-wrapper pull-left">
+                    <h3>MacBook Air</h3>
+                    <a href="#" class="small-yellow-btn">scopri di più</a>
+                </div>
+            </div>
+            <div class="slide quick-offer">
+                <div class="offer-wrapper">
+                    <h3>Acquistiamo il tuo iDevice</h3>
+                </div>
+                <div class="img-wrapper-quick-offer clearfix">
+                    <img src="img/quick-offer.jpg" alt="quic-offer"/>
+                </div>
+                <a href="#" class="small-yellow-btn">Scopri la quotazione <br/> in 1 minuto</a>
+            </div>
+            <div class="slide">
+                <div class="img-wrapper pull-left">
+                    <img src="img/offer1.png" alt="offer1"/>
+                </div>
+                <div class="offer-wrapper pull-left">
+                    <h3>iPad Air</h3>
+                    <a href="#" class="small-yellow-btn">scopri di più</a>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="img-wrapper pull-left">
+                    <img src="img/offer2.png" alt="offer2"/>
+                </div>
+                <div class="offer-wrapper pull-left">
+                    <h3>MacBook Air</h3>
+                    <a href="#" class="small-yellow-btn">scopri di più</a>
+                </div>
+            </div>
+            <div class="slide quick-offer">
+                <div class="offer-wrapper">
+                    <h3>Acquistiamo il tuo iDevice</h3>
+                </div>
+                <div class="img-wrapper-quick-offer clearfix">
+                    <img src="img/quick-offer.jpg" alt="quic-offer"/>
+                </div>
+                <a href="#" class="small-yellow-btn">Scopri la quotazione <br/> in 1 minuto</a>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section class="advantages">
     <div class="container">
         <ul>
@@ -291,11 +380,34 @@
         </ul>
     </div>
 </section>
+
 <footer>
-    <div class="container-fluid clearfix">
+    <div class="container clearfix">
         <div class="row">
-            <div class="social footer-block">
-                <p>SEGUICI!</p>
+            <div class="col-md-2 footer-block">
+                <ul>
+                    <li><a href="#">Chi siamo</a></li>
+                    <li><a href="#">Info e Contatti</a></li>
+                    <li><a href="#">Media</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2 footer-block">
+                <ul>
+                    <li><a href="#">Condizioni di Privacy</a></li>
+                    <li><a href="#">Spedizioni e Resi</a></li>
+                    <li><a href="#">Eco- friendly</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2 footer-block">
+                <ul>
+                    <li><a href="#">Vendi</a></li>
+                    <li><a href="#">I Vantaggi TrenDevice</a></li>
+                    <li><a href="#">Aziende</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2 social footer-block">
+                <p>Seguici su:</p>
                 <ul>
                     <li>
                         <a class="social-link" href="#"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
@@ -311,24 +423,12 @@
                     </li>
                 </ul>
             </div>
-            <div class="footer-block footer-nav">
-                <div class="wrap-footer-nav clearfix">
-                    <ul class="menu1">
-                        <li><a href="#">Chi siamo</a></li>
-                        <li><a href="#">Info e Contatti</a></li>
-                        <li><a href="#">Media</a></li>
-                        <li><a href="#">FAQ</a></li>
-                    </ul>
-                    <ul class="menu2">
-                        <li><a href="#">Spedizioni e Resi</a></li>
-                        <li><a href="#">Vendi</a></li>
-                        <li><a href="#">I Vantaggi TrenDevice</a></li>
-                        <li><a href="#">Aziende</a></li>
-                    </ul>
+            <div class="rewards col-md-4 footer-block">
+                <div class="left-block col-md-4 col-md-offset-2">
+                    <img src="img/sigilloSI.PNG" alt="siglito"/>
                 </div>
-            </div>
-            <div class="rewards footer-block">
-                <div class="right-block">
+                <div class="right-block col-md-6">
+
                     <!--widget code taken from the site http://www.trendevice.com/-->
                     <div class="widget_merchant">
                         <div class="fdt_widget">
@@ -372,14 +472,24 @@
                     <!--END widget code -->
                     <img src="img/associato-confindustria.png" alt="associato-confindustria"/>
                 </div>
-                <div class="left-block">
-                    <img src="img/sigilloSI.PNG" alt="siglito"/>
-                </div>
             </div>
         </div>
-
-        <div class="privacy-policy clearfix">
-            <p>Panta Rei S.r.l. - P.I. 02162920645 - Cap. Soc. 100.000 € i.v. - Privacy Policy</p>
+        <div class="payment-copywrigth row">
+            <div class="payment col-md-6">
+                <span>ACQUISTI SICURI ONLINE CON</span>
+                <ul>
+                    <li><a href="#"><img src="img/payment-visa.jpg" alt="visa"/></a></li>
+                    <li><a href="#"><img src="img/payment-amex.jpg" alt="amex"/></a></li>
+                    <li><a href="#"><img src="img/payment-mc.jpg" alt="mc"/></a></li>
+                    <li><a href="#"><img src="img/payment-maestro.jpg" alt="maestro"/></a></li>
+                    <li><a href="#"><img src="img/payment-visaE.jpg" alt="visa-electron"/></a></li>
+                    <li><a href="#"><img src="img/payment-paypal.jpg" alt="paypal"/></a></li>
+                    <li><a href="#"><img src="img/payment-postpay.jpg" alt="postpay"/></a></li>
+                </ul>
+            </div>
+            <div class="privacy-policy col-md-6 clearfix">
+                <p>Panta Rei S.r.l. - P.I. 02162920645 - Cap. Soc. 100.000 € i.v. - Privacy Policy</p>
+            </div>
         </div>
     </div>
 </footer>
