@@ -530,9 +530,6 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
   .product-section .radio-custom-btn-input:checked + label {
     background-color: #2889c2;
     color: #FFFFFF; }
-  .product-section .radio-custom-btn-input:not([disabled]):hover + label {
-    background-color: #2889c2;
-    cursor: pointer; }
   .product-section .radio-custom-color-label {
     width: 30px;
     height: 30px;
