@@ -372,7 +372,7 @@ $white-color: #FFFFFF;
 }
 
 .header-list-mac {
-  font-size: 24px;
+  font-size: 17px;
   color: $light-gray-color;
   background: $dark-gray-color;
   padding: 0 20px;
@@ -380,6 +380,7 @@ $white-color: #FFFFFF;
   display: block;
 
 }
+.list-models-products.list-mac li a { font-size: 17px}
 
 .list-models-products {
   padding-left: 2px;
@@ -399,6 +400,7 @@ $white-color: #FFFFFF;
       }
     }
   }
+
   .not-available a {
     color: #b2b3b3;
     pointer-events: none;
@@ -459,6 +461,10 @@ $white-color: #FFFFFF;
   }
   .model.not-available a {
     pointer-events: none;
+  }
+  .model.col-sm-3 .wrap-img-model {
+    height: auto;
+    img {width: 100%; height: auto}
   }
   .model {
     padding: 20px 20px;
