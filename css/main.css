@@ -481,13 +481,13 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
     .product-section .radio-custom-color-input[disabled] + label span:before {
       content: "";
       position: absolute;
-      width: 20px;
+      width: 32px;
       height: 1px;
       background-color: #b3b4b4;
       display: block;
-      top: 15px;
+      top: 19px;
       bottom: 0;
-      left: 5px;
+      left: 3px;
       right: 0;
       -moz-transform: rotate(50deg);
       /* Firefox */
@@ -501,13 +501,13 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
     .product-section .radio-custom-color-input[disabled] + label span:after {
       content: "";
       position: absolute;
-      width: 20px;
+      width: 32px;
       height: 1px;
       background-color: #b3b4b4;
       display: block;
-      top: 15px;
+      top: 19px;
       bottom: 0;
-      left: 5px;
+      left: 3px;
       right: 0;
       -moz-transform: rotate(-50deg);
       /* Firefox */
@@ -531,9 +531,10 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
     background-color: #2889c2;
     color: #FFFFFF; }
   .product-section .radio-custom-color-label {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%; }
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 5px; }
   .product-section label[for="grigio-siderale"] {
     background: #606061; }
   .product-section label[for="argento"] {
@@ -590,20 +591,20 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
     padding: 10px 15px;
     text-align: left; }
   .product-section .wrap-price {
-    width: 70%;
+    width: 67%;
     float: left; }
   .product-section .wrap-number {
-    width: 30%;
+    width: 33%;
     float: left; }
   .product-section #number-product {
-    width: 40px;
+    width: 50px;
     padding: 5px;
     font-size: 16px;
     border: solid 1px #EEEEEE; }
   .product-section .buy-btn {
     color: #FFFFFF;
     background: #F79A1F;
-    font-size: 30px;
+    font-size: 29px;
     text-align: center;
     width: 100%;
     border: none;
@@ -828,10 +829,9 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
     font-weight: 300; }
   .information-client input {
     border: none;
-    font-size: 16px;
+    font-size: 18px;
     margin: 4px 0;
-    padding-left: 5px;
-    padding-right: 5px; }
+    padding: 5px; }
   .information-client address {
     margin-bottom: 10px; }
   .information-client .big-yellow-btn {
