@@ -89,6 +89,12 @@ $white-color: #FFFFFF;
   }
 }
 
+.big-yellow-btn.disable{
+  background-color: $dark-gray-color;
+  pointer-events: none;
+
+}
+
 /************************************header-navigation*******************************/
 /************************************************************************************/
 .navbar-nav {
@@ -1136,6 +1142,35 @@ $white-color: #FFFFFF;
     display: block;
   }
 }
+
+
+/***********custom checkbox**********/
+.checkbox-custom:not(checked){
+  position: absolute;
+  opacity: 0;
+}
+.checkbox-custom:not(checked) + label {
+  //    color: #808080;
+}
+.checkbox-custom:checked + label {
+  position: relative;
+  &:before {
+    color: $blue-color;
+    content: "\2714";
+    font-size: 36px;
+    position: absolute;
+    bottom: -12px;
+    right: -12px;
+  }
+}
+.checkbox-custom-label {
+  width: 18px;
+  height: 18px;
+  border: solid 2px $dark-gray-color;
+}
+
+/***********************************/
+
 
 .radio-custom-card:not(checked){
   position: absolute;

@@ -68,6 +68,10 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
     color: #FFFFFF;
     text-decoration: none !important; }
 
+.big-yellow-btn.disable {
+  background-color: #2D2D2D;
+  pointer-events: none; }
+
 /************************************header-navigation*******************************/
 /************************************************************************************/
 .navbar-nav {
@@ -871,6 +875,27 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
     font-size: 16px;
     display: block; }
 
+/***********custom checkbox**********/
+.checkbox-custom:not(checked) {
+  position: absolute;
+  opacity: 0; }
+
+.checkbox-custom:checked + label {
+  position: relative; }
+  .checkbox-custom:checked + label:before {
+    color: #2889c2;
+    content: "\2714";
+    font-size: 36px;
+    position: absolute;
+    bottom: -12px;
+    right: -12px; }
+
+.checkbox-custom-label {
+  width: 18px;
+  height: 18px;
+  border: solid 2px #2D2D2D; }
+
+/***********************************/
 .radio-custom-card:not(checked) {
   position: absolute;
   opacity: 0; }
