@@ -1125,18 +1125,15 @@ $white-color: #FFFFFF;
   }
   .authentication {
     label {
-//      width: 90px;
       display: block;
     }
     .lost-pass {
-      padding-left: 94px;
       font-size: 14px;
       color: $dark-gray-color;
       text-decoration: underline !important;
     }
     .small-gray-btn {
       font-size: 18px;
-//      margin-left: 94px;
       margin-top: 10px;
       margin-bottom: 10px;
       padding: 7px 25px;

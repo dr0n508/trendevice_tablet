@@ -864,7 +864,6 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
   .information-client .authentication label {
     display: block; }
   .information-client .authentication .lost-pass {
-    padding-left: 94px;
     font-size: 14px;
     color: #2D2D2D;
     text-decoration: underline !important; }
