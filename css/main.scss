@@ -584,10 +584,22 @@ $white-color: #FFFFFF;
     font-weight: 600;
     margin-bottom: 30px;
   }
+  .wrap-selection[disabled] {
+    .label-condition {
+      color: #dddcdc;
+
+    }
+    .radio-custom-btn-label, .radio-custom-btn-input, .radio-custom-color-label, .radio-custom-color-input {
+      color: $white-color;
+      background-color: #dddcdc;
+      border: none;
+      pointer-events: none;
+    }
+  }
   .label-condition {
     font-size: 21px;
     margin: 10px 0;
-    a {
+    .information-condition {
       color: $white-color;
       background: $dark-gray-color;
       width: 20px;
@@ -597,6 +609,11 @@ $white-color: #FFFFFF;
       text-align: center;
       font-size: 16px;
       margin-left: 6px;
+      margin-right: 6px;
+    }
+    .link-information-condition {
+      font-size: 12px;
+      text-decoration: underline !important;
     }
   }
   .wrap-color-inputs {
