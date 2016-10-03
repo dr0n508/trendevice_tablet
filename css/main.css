@@ -49,7 +49,7 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
   font-weight: 300;
   padding: 5px 25px;
   color: #FFFFFF;
-  background: #484848;
+  background: #2D2D2D;
   border: none;
   outline: none; }
 
@@ -75,10 +75,10 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
   font-weight: 300; }
 
 .navbar-default {
-  background: #484848; }
+  background: #2D2D2D; }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
-  background: #232323; }
+  background: #191919; }
 
 .navbar-default .navbar-nav > li > a {
   color: #FFFFFF !important; }
@@ -118,14 +118,14 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
   background-color: transparent; }
 
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
-  background-color: #232323; }
+  background-color: #191919; }
 
 /*************multi-column-menu***********/
 .dropdown-menu {
   min-width: 200px;
   padding: 0;
   font-size: 16px;
-  background-color: #232323; }
+  background-color: #191919; }
   .dropdown-menu li a {
     color: #FFFFFF;
     padding: 10px 15px;
@@ -142,18 +142,6 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
 
 .login-user i {
   color: #FFFFFF; }
-
-.header-menu-mac {
-  color: #484848;
-  background-color: #EEEEEE;
-  padding: 3px 15px;
-  font-weight: 400; }
-
-.menu-mac-column1 {
-  padding-right: 0; }
-
-.menu-mac-column2 {
-  padding-left: 0; }
 
 .signin {
   background-color: #F79A1F; }
@@ -227,7 +215,7 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
 .about-us h2 {
   font-size: 21px;
   text-align: center;
-  color: #484848;
+  color: #2D2D2D;
   background: #EEEEEE;
   padding: 8px 0;
   margin-bottom: 10px; }
@@ -290,7 +278,7 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
 .header-list-mac {
   font-size: 17px;
   color: #EEEEEE;
-  background: #484848;
+  background: #2D2D2D;
   padding: 0 20px;
   margin: 0 5px;
   display: block; }
@@ -305,7 +293,7 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
     padding: 3px 5px; }
     .list-models-products li a {
       font-size: 20px;
-      color: #484848;
+      color: #2D2D2D;
       background: #EEEEEE;
       padding: 5px 20px;
       display: block; }
@@ -451,7 +439,7 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
   /****tabs*****/ }
   .product-section h1 {
     font-size: 46px;
-    color: #484848;
+    color: #2D2D2D;
     font-weight: 600;
     margin-bottom: 30px; }
   .product-section .wrap-selection[disabled] .label-condition {
@@ -466,7 +454,7 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
     margin: 10px 0; }
     .product-section .label-condition .information-condition {
       color: #FFFFFF;
-      background: #484848;
+      background: #2D2D2D;
       width: 20px;
       height: 20px;
       display: inline-block;
@@ -763,7 +751,7 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
   font-weight: 300; }
   .product-basket h2 {
     color: #FFFFFF;
-    background: #484848;
+    background: #2D2D2D;
     font-size: 32px;
     margin-bottom: 10px;
     padding: 10px 15px; }
@@ -778,7 +766,7 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
       float: left;
       margin: auto; }
       .product-basket .list-product li .name-product a {
-        color: #484848; }
+        color: #2D2D2D; }
         .product-basket .list-product li .name-product a:hover {
           text-decoration: none; }
     .product-basket .list-product li .price {
@@ -809,7 +797,7 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
       padding: 5px; }
     .product-basket .promoCode a {
       color: #FFFFFF;
-      background: #484848;
+      background: #2D2D2D;
       padding: 7px 20px; }
       .product-basket .promoCode a:hover {
         text-decoration: none; }
@@ -857,7 +845,7 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
       top: 3px;
       left: 3px;
       font-size: 15px;
-      color: #484848;
+      color: #2D2D2D;
       background: #EEEEEE;
       padding: 2px 5px;
       text-align: center; }
@@ -871,7 +859,7 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
   .information-client .authentication .lost-pass {
     padding-left: 94px;
     font-size: 14px;
-    color: #484848;
+    color: #2D2D2D;
     text-decoration: underline !important; }
   .information-client .authentication .small-gray-btn {
     font-size: 18px;
@@ -895,7 +883,7 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
   width: 18px;
   height: 18px;
   border-radius: 50%;
-  border: solid 2px #484848;
+  border: solid 2px #2D2D2D;
   position: absolute;
   left: -30px; }
 
@@ -917,7 +905,7 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
     display: block; }
 
 .panel-default > .panel-heading.open {
-  background-color: #484848;
+  background-color: #2D2D2D;
   border-radius: 0; }
   .panel-default > .panel-heading.open a {
     text-decoration: none;
@@ -946,7 +934,7 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
     background: #EEEEEE; }
   .control-card h2 {
     color: #FFFFFF;
-    background: #484848;
+    background: #2D2D2D;
     font-size: 32px;
     margin-bottom: 10px;
     padding: 10px 15px; }
@@ -958,7 +946,7 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
     float: left;
     margin: auto; }
     .control-card .name-product a, .control-card .text-delivery a, .control-card .text-total-price a {
-      color: #484848; }
+      color: #2D2D2D; }
       .control-card .name-product a:hover, .control-card .text-delivery a:hover, .control-card .text-total-price a:hover {
         text-decoration: none; }
   .control-card .price, .control-card .price-delivery, .control-card .sum-total-price {
@@ -986,7 +974,7 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
 /************************************************************************************/
 footer {
   font-size: 16px;
-  background: #484848;
+  background: #2D2D2D;
   padding: 20px 0;
   color: #EEEEEE; }
   footer .container-fluid {
