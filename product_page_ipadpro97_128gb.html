@@ -98,30 +98,6 @@
                         </ul>
                     </li>
                     <li class="dropdown">
-                        <a href="home_mac.html" class="menu-home-products dropdown-toggle" data-toggle="dropdown">Mac</a>
-                        <ul class="dropdown-menu multi-column columns-2">
-                            <div class="row">
-                                <div class="col-sm-6 menu-mac-column1">
-                                    <ul class="multi-column-dropdown">
-                                        <li class="header-menu-mac">Portatile</li>
-                                        <li><a href="#">MacBook Pro Retina</a></li>
-                                        <li><a href="#">MacBook Pro</a></li>
-                                        <li><a href="#">MacBook Air</a></li>
-                                        <li><a href="#">MacBook</a></li>
-                                    </ul>
-                                </div>
-                                <div class="col-sm-6 menu-mac-column2">
-                                    <ul class="multi-column-dropdown">
-                                        <li class="header-menu-mac">Fisso</li>
-                                        <li><a href="#">iMac</a></li>
-                                        <li><a href="#">Mac Pro</a></li>
-                                        <li><a href="#">Mac mini</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
                         <a href="home_watch.html" class="menu-home-products dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Watch</a>
                         <ul class="dropdown-menu">
                             <li><a href="product_watchsport.html">Watch Sport</a></li>
@@ -132,7 +108,6 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li class="sell-btn"><a href="https://www.trendevice.com/vendi.html">Vendi</a></li>
                     <li><a href="#" class="basket-fa hidden-xs"><i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i></a></li>
-                    <!--<li><a href="#" class="user-fa hidden-xs"><i class="fa fa-user fa-lg" aria-hidden="true"></i></a></li>-->
 
                     <li class="dropdown hidden-xs">
                         <a href="#" class="dropdown-toggle new-user" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user fa-lg" aria-hidden="true"></i></a>
@@ -193,43 +168,48 @@
                     <!--end tabs-->
                 </div>
                 <div class="col-sm-7">
+                    <div class="wrap-selection" group-radio-inputs>
+                        <p class="label-condition">Scegli tipo di connessione:</p>
+                        <div class="wrap-input-condition">
+                            <input class="radio-custom-btn-input" type="radio" id="wifi-only" name="wireless-connection" value="wifi-only"/>
+                            <label class="radio-custom-btn-label" for="wifi-only"><span>Wi-Fi</span></label>
 
-                    <p class="label-condition">Scegli tipo di connessione:</p>
-                    <div class="wrap-input-condition">
-                        <input class="radio-custom-btn-input" type="radio" id="wifi-only" name="wireless-connection" value="wifi-only"/>
-                        <label class="radio-custom-btn-label" for="wifi-only"><span>Wi-Fi</span></label>
-
-                        <input class="radio-custom-btn-input"  type="radio" id="wifi-cell" name="wireless-connection" value="wifi-cell"/>
-                        <label class="radio-custom-btn-label" for="wifi-cell"><span>Wi-Fi + Cell</span></label>
+                            <input class="radio-custom-btn-input"  type="radio" id="wifi-cell" name="wireless-connection" value="wifi-cell"/>
+                            <label class="radio-custom-btn-label" for="wifi-cell"><span>Wi-Fi + Cell</span></label>
+                        </div>
                     </div>
 
-                    <p class="label-condition">Scegli il Colore:</p>
-                    <div class="wrap-color-inputs">
-                        <input class="radio-custom-color-input" type="radio" id="grigio-siderale" name="color-product" value="Grigio Siderale"/>
-                        <label class="radio-custom-color-label" for="grigio-siderale"><span></span></label>
+                    <div class="wrap-selection" group-radio-inputs disabled>
+                        <p class="label-condition">Scegli il Colore:</p>
+                        <div class="wrap-color-inputs">
+                            <input class="radio-custom-color-input" type="radio" id="grigio-siderale" name="color-product" value="Grigio Siderale"/>
+                            <label class="radio-custom-color-label" for="grigio-siderale"><span></span></label>
 
-                        <input class="radio-custom-color-input" type="radio" id="argento" name="color-product" value="Argento"/>
-                        <label class="radio-custom-color-label" for="argento"><span></span></label>
+                            <input class="radio-custom-color-input" type="radio" id="argento" name="color-product" value="Argento"/>
+                            <label class="radio-custom-color-label" for="argento"><span></span></label>
 
-                        <input class="radio-custom-color-input" type="radio" id="oro" name="color-product" value="Oro"/>
-                        <label class="radio-custom-color-label" for="oro"><span></span></label>
+                            <input class="radio-custom-color-input" type="radio" id="oro" name="color-product" value="Oro"/>
+                            <label class="radio-custom-color-label" for="oro"><span></span></label>
 
-                        <input class="radio-custom-color-input" type="radio" id="ororosa" name="color-product" value="Oro Rosa"/>
-                        <label class="radio-custom-color-label" for="ororosa"><span></span></label>
+                            <input class="radio-custom-color-input" type="radio" id="ororosa" name="color-product" value="Oro Rosa"/>
+                            <label class="radio-custom-color-label" for="ororosa"><span></span></label>
+                        </div>
+                        <span class="selected-color"></span>
                     </div>
-                    <span class="selected-color"></span>
 
-                    <p class="label-condition">Scegli le Condizioni:<a class="information-condition" href="#" data-toggle="modal" data-target="#popover-condition">i</a>
-                        <a class="link-information-condition" href="#" data-toggle="modal" data-target="#popover-condition">clicca qui per saperne di più</a></p>
-                    <div class="wrap-input-condition">
-                        <input class="radio-custom-btn-input" type="radio" id="good-condition" name="condition-phone" value="good-condition"/>
-                        <label class="radio-custom-btn-label" for="good-condition"><span>buono</span></label>
+                    <div class="wrap-selection" group-radio-inputs disabled>
+                        <p class="label-condition">Scegli le Condizioni:<a class="information-condition" href="#" data-toggle="modal" data-target="#popover-condition">i</a>
+                            <a class="link-information-condition" href="#" data-toggle="modal" data-target="#popover-condition">clicca qui per saperne di più</a></p>
+                        <div class="wrap-input-condition">
+                            <input class="radio-custom-btn-input" type="radio" id="good-condition" name="condition-phone" value="good-condition"/>
+                            <label class="radio-custom-btn-label" for="good-condition"><span>buono</span></label>
 
-                        <input class="radio-custom-btn-input" disabled type="radio" id="excellent-condition" name="condition-phone" value="excellent-condition"/>
-                        <label class="radio-custom-btn-label" for="excellent-condition"><span>ottimo</span></label>
+                            <input class="radio-custom-btn-input" disabled type="radio" id="excellent-condition" name="condition-phone" value="excellent-condition"/>
+                            <label class="radio-custom-btn-label" for="excellent-condition"><span>ottimo</span></label>
 
-                        <input class="radio-custom-btn-input" type="radio" id="perfect-condition" name="condition-phone" value="perfect-condition"/>
-                        <label class="radio-custom-btn-label" for="perfect-condition"><span>perfetto</span></label>
+                            <input class="radio-custom-btn-input" type="radio" id="perfect-condition" name="condition-phone" value="perfect-condition"/>
+                            <label class="radio-custom-btn-label" for="perfect-condition"><span>perfetto</span></label>
+                        </div>
                     </div>
                     <ul class="list-description-product">
                         <li>Cavo USB e Alimentatore: Originali Apple</li>
@@ -247,11 +227,8 @@
                                 <option value="3">3</option>
                                 <option value="4">4</option>
                                 <option value="5">5</option>
-                                <option value="5">6</option>
-                                <option value="5">7</option>
-                                <option value="5">8</option>
-                                <option value="5">9</option>
-                                <option value="5">10</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
                             </select>
                         </div>
                         <div class="wrap-price">
@@ -415,32 +392,33 @@
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <button type="button" class="close pull-left" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <button type="button" class="close pull-right" data-dismiss="modal" aria-label="Close"><span class="fa fa-times fa-lg" aria-hidden="true"></span></button>
                 <h4 class="modal-title text-center" id="myModalLabel">Come scegliere le condizioni?</h4>
             </div>
             <div class="modal-body">
                 <div class="row">
                     <ul class="clearfix">
                         <li class="col-sm-4">
-                            <h5>Come nuovo</h5>
+                            <h5>Buono</h5>
                             <div class="wrap-img">
                                 <img src="http://placehold.it/350x250">
                             </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obest laborum.</p>
+                            <p><strong>Buono (Grade A)</strong><br>Il dispositivo è in buone condizioni, ovvero potrebbe presentare qualche difetto estetico, ma nulla che non si possa coprire applicando la vostra cover preferita.</p>
+
                         </li>
                         <li class="col-sm-4">
                             <h5>Ottimo</h5>
                             <div class="wrap-img">
                                 <img src="http://placehold.it/350x250">
                             </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obest laborum.</p>
+                            <p><strong>Ottimo (Grade A+)</strong><br>Il dispositivo è in ottime condizioni, eventualmente con qualche piccolo difetto estetico difficilmente notabile.</p>
                         </li>
                         <li class="col-sm-4">
-                            <h5>Buono</h5>
+                            <h5>Perfetto</h5>
                             <div class="wrap-img">
                                 <img src="http://placehold.it/350x250">
                             </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obest laborum.</p>
+                            <p><strong>Perfetto (Grade A++)</strong><br>Il prodotto è perfetto, come nuovo, o addirittura mai aperto con la garanzia Apple ancora da attivare.</p>
                         </li>
                     </ul>
                 </div>

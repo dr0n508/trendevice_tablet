@@ -168,34 +168,39 @@
                     <!--end tabs-->
                 </div>
                 <div class="col-sm-7">
+                    <div class="wrap-selection" group-radio-inputs>
+                        <p class="label-condition">Scegli tipo di connessione:</p>
+                        <div class="wrap-input-condition">
+                            <input class="radio-custom-btn-input" type="radio" id="wifi-only" name="wireless-connection" value="wifi-only"/>
+                            <label class="radio-custom-btn-label" for="wifi-only"><span>Wi-Fi</span></label>
 
-                    <p class="label-condition">Scegli tipo di connessione:</p>
-                    <div class="wrap-input-condition">
-                        <input class="radio-custom-btn-input" type="radio" id="wifi-only" name="wireless-connection" value="wifi-only"/>
-                        <label class="radio-custom-btn-label" for="wifi-only"><span>Wi-Fi</span></label>
-
-                        <input class="radio-custom-btn-input"  type="radio" id="wifi-cell" name="wireless-connection" value="wifi-cell"/>
-                        <label class="radio-custom-btn-label" for="wifi-cell"><span>Wi-Fi + Cell</span></label>
+                            <input class="radio-custom-btn-input"  type="radio" id="wifi-cell" name="wireless-connection" value="wifi-cell"/>
+                            <label class="radio-custom-btn-label" for="wifi-cell"><span>Wi-Fi + Cell</span></label>
+                        </div>
                     </div>
 
-                    <p class="label-condition">Scegli il Colore:</p>
-                    <div class="wrap-color-inputs">
-                        <input class="radio-custom-color-input" type="radio" id="nero" name="color-product" value="Nero"/>
-                        <label class="radio-custom-color-label" for="nero"><span></span></label>
+                    <div class="wrap-selection" group-radio-inputs disabled>
+                        <p class="label-condition">Scegli il Colore:</p>
+                        <div class="wrap-color-inputs">
+                            <input class="radio-custom-color-input" type="radio" id="nero" name="color-product" value="Nero"/>
+                            <label class="radio-custom-color-label" for="nero"><span></span></label>
+                        </div>
+                        <span class="selected-color"></span>
                     </div>
-                    <span class="selected-color"></span>
 
-                    <p class="label-condition">Scegli le Condizioni:<a class="information-condition" href="#" data-toggle="modal" data-target="#popover-condition">i</a>
-                        <a class="link-information-condition" href="#" data-toggle="modal" data-target="#popover-condition">clicca qui per saperne di più</a></p>
-                    <div class="wrap-input-condition">
-                        <input class="radio-custom-btn-input" type="radio" id="good-condition" name="condition-phone" value="good-condition"/>
-                        <label class="radio-custom-btn-label" for="good-condition"><span>buono</span></label>
+                    <div class="wrap-selection" group-radio-inputs disabled>
+                        <p class="label-condition">Scegli le Condizioni:<a class="information-condition" href="#" data-toggle="modal" data-target="#popover-condition">i</a>
+                            <a class="link-information-condition" href="#" data-toggle="modal" data-target="#popover-condition">clicca qui per saperne di più</a></p>
+                        <div class="wrap-input-condition">
+                            <input class="radio-custom-btn-input" type="radio" id="good-condition" name="condition-phone" value="good-condition"/>
+                            <label class="radio-custom-btn-label" for="good-condition"><span>buono</span></label>
 
-                        <input class="radio-custom-btn-input" disabled type="radio" id="excellent-condition" name="condition-phone" value="excellent-condition"/>
-                        <label class="radio-custom-btn-label" for="excellent-condition"><span>ottimo</span></label>
+                            <input class="radio-custom-btn-input" disabled type="radio" id="excellent-condition" name="condition-phone" value="excellent-condition"/>
+                            <label class="radio-custom-btn-label" for="excellent-condition"><span>ottimo</span></label>
 
-                        <input class="radio-custom-btn-input" type="radio" id="perfect-condition" name="condition-phone" value="perfect-condition"/>
-                        <label class="radio-custom-btn-label" for="perfect-condition"><span>perfetto</span></label>
+                            <input class="radio-custom-btn-input" type="radio" id="perfect-condition" name="condition-phone" value="perfect-condition"/>
+                            <label class="radio-custom-btn-label" for="perfect-condition"><span>perfetto</span></label>
+                        </div>
                     </div>
                     <ul class="list-description-product">
                         <li>Cavo USB e Alimentatore: Originali Apple</li>
