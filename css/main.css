@@ -72,6 +72,9 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
   background-color: #2D2D2D;
   pointer-events: none; }
 
+.db {
+  display: block; }
+
 /************************************header-navigation*******************************/
 /************************************************************************************/
 .navbar-nav {
@@ -859,7 +862,7 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
     margin-bottom: 15px;
     font-weight: 400; }
   .information-client .authentication label {
-    width: 90px; }
+    display: block; }
   .information-client .authentication .lost-pass {
     padding-left: 94px;
     font-size: 14px;
@@ -867,7 +870,6 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
     text-decoration: underline !important; }
   .information-client .authentication .small-gray-btn {
     font-size: 18px;
-    margin-left: 94px;
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 7px 25px; }
@@ -916,10 +918,14 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
   position: relative;
   margin-bottom: 5px; }
   .wrap-custom-input span {
-    font-size: 13px; }
+    font-size: 13px;
+    margin: 10px 0 30px; }
   .wrap-custom-input i {
     margin-right: 10px;
     width: 20px; }
+  .wrap-custom-input b {
+    font-size: 13px;
+    margin-right: 20px; }
 
 /*****accordion-custom-styles****/
 .panel-default > .panel-heading {
@@ -946,6 +952,47 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
   border: none;
   border-radius: 0;
   margin-top: 5px; }
+  .panel-group .panel .facebook-block {
+    position: relative; }
+    .panel-group .panel .facebook-block .wrap-inputs:first-child {
+      border-right: solid 1px #8e9092;
+      z-index: 1; }
+    .panel-group .panel .facebook-block:before {
+      content: "oppure";
+      position: absolute;
+      display: inline-block;
+      text-align: center;
+      padding: 10px 5px;
+      top: 50%;
+      left: 50%;
+      margin-top: -23px;
+      margin-left: -25px;
+      background-color: #EEEEEE;
+      z-index: 2; }
+
+.facebook-btn {
+  color: #FFFFFF;
+  display: inline-block;
+  float: right;
+  border-top: solid 2px #7189bd;
+  background: #4b6aab;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #4b6aab 0%, #325195 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #4b6aab 0%, #325195 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #4b6aab 0%, #325195 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4b6aab', endColorstr='#325195',GradientType=0 );
+  /* IE6-9 */ }
+  .facebook-btn:hover {
+    text-decoration: none;
+    color: #FFFFFF; }
+  .facebook-btn i {
+    padding: 15px 20px;
+    border-right: solid 1px #365092; }
+  .facebook-btn span {
+    padding: 0 20px; }
 
 /****************************************control-card********************************/
 /************************************************************************************/
