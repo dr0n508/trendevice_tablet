@@ -691,56 +691,6 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
     display: inline-block; }
 
 /*****************/
-/*****************************************mac*product*page***************************/
-/************************************************************************************/
-.version-product .wrap-img {
-  margin-bottom: 15px; }
-  .version-product .wrap-img img {
-    width: 100%;
-    height: auto; }
-.version-product .model-mac {
-  text-align: center;
-  padding: 15px;
-  background-color: #EEEEEE;
-  margin-bottom: 25px; }
-.version-product .characteristics-product {
-  text-align: left;
-  margin-bottom: 15px; }
-  .version-product .characteristics-product .model-product {
-    font-weight: 600;
-    font-size: 21px; }
-  .version-product .characteristics-product p {
-    font-weight: 600;
-    font-size: 21px; }
-    .version-product .characteristics-product p span {
-      font-weight: 300; }
-.version-product .big-yellow-btn {
-  display: inline-block;
-  font-weight: 600; }
-.version-product .detail-characteristics {
-  padding: 15px;
-  margin: 15px;
-  background-color: #EEEEEE; }
-  .version-product .detail-characteristics p {
-    font-size: 19px;
-    font-weight: 600; }
-    .version-product .detail-characteristics p span {
-      font-weight: 300; }
-  .version-product .detail-characteristics .wrap-buy {
-    margin: 20px 0; }
-    .version-product .detail-characteristics .wrap-buy .price-product {
-      border-top: solid 1px #676363;
-      border-left: solid 1px #676363;
-      border-right: solid 1px #676363; }
-    .version-product .detail-characteristics .wrap-buy .buy-btn {
-      color: #FFFFFF;
-      background: #F79A1F;
-      font-size: 31px;
-      text-align: center;
-      width: 100%;
-      border: none;
-      outline: none; }
-
 /*****************************************breadcrumbs**cart01************************/
 /************************************************************************************/
 .breadcrumbs {

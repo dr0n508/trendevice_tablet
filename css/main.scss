@@ -619,7 +619,6 @@ $white-color: #FFFFFF;
     display: inline-block;
     vertical-align: middle;
     font-size: 18px;
-//    margin-left: 10px;
   }
 
   .radio-custom-color-input[disabled]+label {
@@ -906,75 +905,6 @@ $white-color: #FFFFFF;
   .old-price {display: inline-block;}
 }
 /*****************/
-
-/*****************************************mac*product*page***************************/
-/************************************************************************************/
-.version-product {
-  .wrap-img {
-    margin-bottom: 15px;
-    img {
-      width: 100%;
-      height: auto;
-    }
-  }
-  .model-mac {
-    text-align: center;
-    padding: 15px;
-    background-color: $light-gray-color;
-    margin-bottom: 25px;
-  }
-  .characteristics-product {
-    text-align: left;
-    margin-bottom: 15px;
-    .model-product {
-      font-weight: 600;
-      font-size: 21px;
-    }
-    p {
-      font-weight: 600;
-      font-size: 21px;
-      span {
-        font-weight: 300;
-      }
-    }
-  }
-  .big-yellow-btn {
-    display: inline-block;
-    font-weight: 600;
-  }
-  .detail-characteristics {
-    padding: 15px;
-    margin: 15px;
-    background-color: $light-gray-color;
-    p {
-      font-size: 19px;
-      font-weight: 600;
-      span {
-        font-weight: 300;
-      }
-    }
-    .wrap-buy {
-      margin: 20px 0;
-      .price-product {
-        border-top: solid 1px #676363;
-        border-left: solid 1px #676363;
-        border-right: solid 1px #676363;
-      }
-      .buy-btn {
-        color: $white-color;
-        background: $yellow-color;
-        font-size: 31px;
-        text-align: center;
-        width: 100%;
-        border: none;
-        outline: none;
-      }
-    }
-  }
-}
-
-
-
 
 /*****************************************breadcrumbs**cart01************************/
 /************************************************************************************/
