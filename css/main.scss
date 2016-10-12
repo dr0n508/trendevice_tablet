@@ -601,7 +601,7 @@ $white-color: #FFFFFF;
     }
   }
   .label-condition {
-    font-size: 21px;
+    font-size: 20px;
     margin: 10px 0;
     .information-condition {
       color: $white-color;
@@ -616,8 +616,9 @@ $white-color: #FFFFFF;
       margin-right: 6px;
     }
     .link-information-condition {
-      font-size: 11px;
+      font-size: 15px;
       text-decoration: underline !important;
+      display: block;
     }
   }
   .wrap-color-inputs {

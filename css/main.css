@@ -464,7 +464,7 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
     border: none;
     pointer-events: none; }
   .product-section .label-condition {
-    font-size: 21px;
+    font-size: 20px;
     margin: 10px 0; }
     .product-section .label-condition .information-condition {
       color: #FFFFFF;
@@ -478,8 +478,9 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
       margin-left: 6px;
       margin-right: 6px; }
     .product-section .label-condition .link-information-condition {
-      font-size: 11px;
-      text-decoration: underline !important; }
+      font-size: 15px;
+      text-decoration: underline !important;
+      display: block; }
   .product-section .wrap-color-inputs {
     display: inline-block;
     vertical-align: middle; }
