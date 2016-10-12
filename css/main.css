@@ -10,7 +10,7 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
   margin: 0;
   outline: none;
   list-style: none;
-  text-decoration: none !important; }
+  text-decoration: none; }
 
 /***********************************custom-theme-elements****************************/
 /************************************************************************************/
@@ -74,6 +74,12 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
 
 .db {
   display: block; }
+
+.morecontent span {
+  display: none; }
+
+.morelink {
+  text-decoration: underline; }
 
 /************************************header-navigation*******************************/
 /************************************************************************************/
@@ -198,7 +204,8 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
     font-weight: 700;
     color: #2889c2;
     text-align: center;
-    padding-bottom: 50px; }
+    padding-bottom: 50px;
+    text-transform: uppercase; }
   .our-products li {
     text-align: center;
     display: inline-block;
@@ -206,7 +213,7 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
     padding-right: 3px;
     padding-left: 3px; }
     .our-products li .wrap-img {
-      height: 160px;
+      height: 190px;
       padding: 0 5px;
       position: relative; }
       .our-products li .wrap-img img {
