@@ -83,6 +83,9 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
 
 /************************************header-navigation*******************************/
 /************************************************************************************/
+.navbar {
+  margin-bottom: 5px; }
+
 .navbar-nav {
   font-size: 16px;
   font-weight: 300; }
@@ -350,14 +353,15 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
 /**********************************iphone6*******************************************/
 /************************************************************************************/
 .version-product h1 {
-  padding: 20px 20px 0;
+  padding: 0 20px 0;
   font-size: 44px;
   color: #2889c2;
   font-weight: 600; }
 .version-product .info-product {
   font-weight: 300;
   font-size: 18px;
-  margin-bottom: 25px; }
+  margin-bottom: 25px;
+  text-align: justify; }
 .version-product .model.not-available a {
   pointer-events: none; }
 .version-product .model.col-sm-3 .wrap-img-model {

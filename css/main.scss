@@ -110,6 +110,10 @@ $white-color: #FFFFFF;
 
 /************************************header-navigation*******************************/
 /************************************************************************************/
+.navbar {
+  margin-bottom: 5px;
+}
+
 .navbar-nav {
   font-size: 16px;
   font-weight: 300;
@@ -453,7 +457,7 @@ $white-color: #FFFFFF;
 
 .version-product {
   h1 {
-    padding: 20px 20px 0;
+    padding: 0 20px 0;
     font-size: 44px;
     color: $blue-color;
     font-weight: 600;
@@ -462,6 +466,7 @@ $white-color: #FFFFFF;
     font-weight: 300;
     font-size: 18px;
     margin-bottom: 25px;
+    text-align: justify;
   }
   .model.not-available a {
     pointer-events: none;
