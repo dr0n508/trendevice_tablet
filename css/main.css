@@ -247,11 +247,11 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
     height: 100%;
     width: 100%;
     background: rgba(0, 0, 0, 0.6);
-    padding: 20px 10px 10px 10px;
+    padding: 5px;
     color: white;
     text-align: center;
     font-style: italic;
-    font-size: 16px; }
+    font-size: 12px; }
   .slider-about-us .slide a:hover .hide-block {
     display: block; }
 

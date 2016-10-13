@@ -2,8 +2,8 @@ $(document).ready(function () {
 
     $('.slider-about-us').bxSlider({
         slideWidth: 220,
-        minSlides: 4,
-        maxSlides: 4,
+        minSlides: 5,
+        maxSlides: 5,
         moveSlides: 1,
         slideMargin: 10,
         pager: false,
