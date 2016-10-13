@@ -457,7 +457,7 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
   /*****end-colors****/
   /****tabs*****/ }
   .product-section h1 {
-    font-size: 42px;
+    font-size: 36px;
     color: #2D2D2D;
     font-weight: 600; }
   .product-section .wrap-selection[disabled] .label-condition {
