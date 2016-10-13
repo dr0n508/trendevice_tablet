@@ -399,7 +399,7 @@ $white-color: #FFFFFF;
       font-size: 20px;
       color: $dark-gray-color;
       background: $light-gray-color;
-      padding: 5px 20px;
+      padding: 12px 20px;
       display: block;
       &:hover {
         color: $white-color;
@@ -507,11 +507,8 @@ $white-color: #FFFFFF;
       margin-bottom: 5px;
     }
     .small-yellow-btn {
-      display: inline-block;
       font-size: 16px;
-      padding: 15px 0;
-      width: 100%;
-
+      padding: 10px;
     }
   }
 }
@@ -852,7 +849,7 @@ $white-color: #FFFFFF;
   /****tabs*****/
   .nav-tabs {
     border: none;
-//    text-align: center;
+    text-align: center;
     padding: 0 30px;
     li {
       float: none;
@@ -870,7 +867,7 @@ $white-color: #FFFFFF;
 
   .tab-pane .wrap-img {
     margin-bottom: 20px;
-//    text-align: center;
+    text-align: center;
     img {
       width: 90%;
       height: auto;

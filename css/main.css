@@ -312,7 +312,7 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
       font-size: 20px;
       color: #2D2D2D;
       background: #EEEEEE;
-      padding: 5px 20px;
+      padding: 12px 20px;
       display: block; }
       .list-models-products li a:hover {
         color: #FFFFFF;
@@ -397,10 +397,8 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
     padding: 15px 0;
     margin-bottom: 5px; }
   .version-product .model .small-yellow-btn {
-    display: inline-block;
     font-size: 16px;
-    padding: 15px 0;
-    width: 100%; }
+    padding: 10px; }
 
 /***************************************thanks-message*******************************/
 /************************************************************************************/
@@ -639,6 +637,7 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
       max-width: 200px; }
   .product-section .nav-tabs {
     border: none;
+    text-align: center;
     padding: 0 30px; }
     .product-section .nav-tabs li {
       float: none;
@@ -650,7 +649,8 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
     border: solid 2px #2889c2 !important;
     border-radius: 0; }
   .product-section .tab-pane .wrap-img {
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    text-align: center; }
     .product-section .tab-pane .wrap-img img {
       width: 90%;
       height: auto;
