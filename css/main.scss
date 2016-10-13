@@ -504,10 +504,11 @@ $white-color: #FFFFFF;
     p {
       font-size: 17px;
       padding: 15px 0;
+      margin-bottom: 5px;
     }
     .small-yellow-btn {
       font-size: 16px;
-      padding: 10px;
+      padding: 15px 20px;
     }
   }
 }
@@ -591,7 +592,7 @@ $white-color: #FFFFFF;
     font-size: 42px;
     color: $dark-gray-color;
     font-weight: 600;
-    margin-bottom: 10px;
+//    margin-bottom: 10px;
   }
   .wrap-selection[disabled] {
     .label-condition {

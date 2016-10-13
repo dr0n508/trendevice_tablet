@@ -394,10 +394,11 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
       font-weight: 600; }
   .version-product .model p {
     font-size: 17px;
-    padding: 15px 0; }
+    padding: 15px 0;
+    margin-bottom: 5px; }
   .version-product .model .small-yellow-btn {
     font-size: 16px;
-    padding: 10px; }
+    padding: 15px 20px; }
 
 /***************************************thanks-message*******************************/
 /************************************************************************************/
@@ -458,8 +459,7 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
   .product-section h1 {
     font-size: 42px;
     color: #2D2D2D;
-    font-weight: 600;
-    margin-bottom: 10px; }
+    font-weight: 600; }
   .product-section .wrap-selection[disabled] .label-condition {
     color: #dddcdc; }
   .product-section .wrap-selection[disabled] .radio-custom-btn-label, .product-section .wrap-selection[disabled] .radio-custom-btn-input, .product-section .wrap-selection[disabled] .radio-custom-color-label, .product-section .wrap-selection[disabled] .radio-custom-color-input {
