@@ -874,6 +874,13 @@ $white-color: #FFFFFF;
     }
   }
   .wrap-img.ipad-wrap img {
+    width: 85%;
+    max-width: 100%;
+    @media only screen and (min-width: 992px) {
+      max-width: 70%;
+    }
+  }
+  .wrap-img.watch-wrap img {
     max-width: 100%;
     @media only screen and (min-width: 992px) {
       max-width: 75%;

@@ -656,9 +656,15 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
       height: auto;
       max-width: 190px; }
   .product-section .wrap-img.ipad-wrap img {
+    width: 85%;
     max-width: 100%; }
     @media only screen and (min-width: 992px) {
       .product-section .wrap-img.ipad-wrap img {
+        max-width: 70%; } }
+  .product-section .wrap-img.watch-wrap img {
+    max-width: 100%; }
+    @media only screen and (min-width: 992px) {
+      .product-section .wrap-img.watch-wrap img {
         max-width: 75%; } }
 
 /*******************/
