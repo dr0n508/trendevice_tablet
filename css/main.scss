@@ -507,8 +507,11 @@ $white-color: #FFFFFF;
       margin-bottom: 5px;
     }
     .small-yellow-btn {
+      display: inline-block;
       font-size: 16px;
-      padding: 15px 20px;
+      padding: 15px 0;
+      width: 100%;
+
     }
   }
 }

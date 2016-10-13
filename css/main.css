@@ -397,8 +397,10 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
     padding: 15px 0;
     margin-bottom: 5px; }
   .version-product .model .small-yellow-btn {
+    display: inline-block;
     font-size: 16px;
-    padding: 15px 20px; }
+    padding: 15px 0;
+    width: 100%; }
 
 /***************************************thanks-message*******************************/
 /************************************************************************************/
