@@ -588,10 +588,10 @@ $white-color: #FFFFFF;
 
 .product-section {
   h1 {
-    font-size: 46px;
+    font-size: 42px;
     color: $dark-gray-color;
     font-weight: 600;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
   }
   .wrap-selection[disabled] {
     .label-condition {
@@ -872,6 +872,10 @@ $white-color: #FFFFFF;
       height: auto;
       max-width: 200px;
     }
+  }
+  .wrap-img.ipad-wrap img {
+    width: 100%;
+    max-width: 100%;
   }
 }
 

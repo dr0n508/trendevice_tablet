@@ -456,10 +456,10 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
   /*****end-colors****/
   /****tabs*****/ }
   .product-section h1 {
-    font-size: 46px;
+    font-size: 42px;
     color: #2D2D2D;
     font-weight: 600;
-    margin-bottom: 30px; }
+    margin-bottom: 10px; }
   .product-section .wrap-selection[disabled] .label-condition {
     color: #dddcdc; }
   .product-section .wrap-selection[disabled] .radio-custom-btn-label, .product-section .wrap-selection[disabled] .radio-custom-btn-input, .product-section .wrap-selection[disabled] .radio-custom-color-label, .product-section .wrap-selection[disabled] .radio-custom-color-input {
@@ -655,6 +655,9 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
       width: 90%;
       height: auto;
       max-width: 200px; }
+  .product-section .wrap-img.ipad-wrap img {
+    width: 100%;
+    max-width: 100%; }
 
 /*******************/
 .price-product {
