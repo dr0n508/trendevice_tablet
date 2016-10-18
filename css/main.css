@@ -714,6 +714,104 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
     display: inline-block; }
 
 /*****************/
+/*****************************************comparison-page-7-6s***********************/
+/************************************************************************************/
+.comparison h1 {
+  font-size: 40px;
+  padding: 40px 0 60px;
+  font-weight: 300;
+  text-align: center; }
+  .comparison h1 span {
+    color: #2889c2; }
+.comparison .wrap-img {
+  width: 70%;
+  height: auto;
+  margin: 0 auto; }
+  .comparison .wrap-img a {
+    display: block; }
+    .comparison .wrap-img a img {
+      width: 100%;
+      height: auto; }
+.comparison a:hover {
+  text-decoration: none; }
+.comparison h3 {
+  color: #2889c2;
+  font-weight: 300;
+  margin-bottom: 30px; }
+.comparison .text-section {
+  text-align: justify;
+  padding: 30px 0; }
+  .comparison .text-section p {
+    font-size: 19px;
+    font-weight: 300; }
+    .comparison .text-section p span {
+      font-weight: 600; }
+  @media only screen and (max-width: 992px) {
+    .comparison .text-section {
+      padding: 30px 10px; } }
+.comparison .wrap-table {
+  padding-right: 0;
+  padding-left: 0; }
+.comparison .table-comparison {
+  font-size: 19px;
+  font-weight: 300;
+  margin: 30px 0;
+  display: table;
+  background: #FFFFFF;
+  border-color: #3a87ad;
+  border-spacing: 5px; }
+.comparison .header-table {
+  width: 20%; }
+.comparison .cell-info {
+  width: 40%; }
+.comparison .row-r {
+  display: table-row; }
+  .comparison .row-r:nth-child(odd) {
+    background: #EEEEEE; }
+  .comparison .row-r:last-child {
+    background: none; }
+.comparison .cell-table {
+  text-align: left;
+  display: table-cell;
+  vertical-align: middle;
+  height: 60px;
+  padding: 0 30px; }
+  @media only screen and (max-width: 1200px) {
+    .comparison .cell-table {
+      padding: 0 15px; } }
+  .comparison .cell-table p {
+    font-size: 14px;
+    display: inline-block; }
+    .comparison .cell-table p span {
+      font-weight: 400; }
+  .comparison .cell-table .wrap {
+    width: 49%;
+    display: inline-block;
+    font-size: 12px; }
+    @media only screen and (max-width: 992px) {
+      .comparison .cell-table .wrap {
+        width: 100%; }
+        .comparison .cell-table .wrap p {
+          display: block; } }
+  .comparison .cell-table .price {
+    font-size: 36px; }
+    .comparison .cell-table .price span {
+      font-size: 18px;
+      margin-top: 4px;
+      position: absolute; }
+.comparison .cell-btn {
+  padding: 0;
+  text-align: right; }
+.comparison .cta {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 300;
+  margin-bottom: 50px; }
+  .comparison .cta a {
+    color: #2889c2; }
+    .comparison .cta a:hover {
+      color: #23527c; }
+
 /*****************************************breadcrumbs**cart01************************/
 /************************************************************************************/
 .breadcrumbs {

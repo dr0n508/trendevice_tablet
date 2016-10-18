@@ -935,6 +935,135 @@ $white-color: #FFFFFF;
 }
 /*****************/
 
+/*****************************************comparison-page-7-6s***********************/
+/************************************************************************************/
+.comparison {
+  h1 {
+    font-size: 40px;
+    padding: 40px 0 60px;
+    font-weight: 300;
+    text-align: center;
+    span {
+      color: $blue-color;
+    }
+  }
+  .wrap-img {
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+    a {
+      display: block;
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+  a:hover {
+    text-decoration: none;
+  }
+  h3 {
+    color: $blue-color;
+    font-weight: 300;
+    margin-bottom: 30px;
+  }
+  .text-section {
+    text-align: justify;
+    padding: 30px 0;
+    p {
+      font-size: 19px;
+      font-weight: 300;
+      span {
+        font-weight: 600;
+      }
+    }
+    @media only screen and (max-width: 992px) {
+      padding: 30px 10px;
+    }
+  }
+  .wrap-table {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .table-comparison {
+    font-size: 19px;
+    font-weight: 300;
+    margin: 30px 0;
+    display: table;
+    background: $white-color;
+    border-color: #3a87ad;
+    border-spacing: 5px;
+  }
+  .header-table {
+    width: 20%;
+  }
+  .cell-info {
+    width: 40%;
+  }
+
+  .row-r {
+    display: table-row;
+    &:nth-child(odd) {
+      background: $light-gray-color;
+    }
+    &:last-child {
+      background: none;
+    }
+  }
+  .cell-table {
+    text-align: left;
+    display: table-cell;
+    vertical-align: middle;
+    height: 60px;
+    padding: 0 30px;
+    @media only screen and (max-width: 1200px) {
+      padding: 0 15px;
+    }
+    p {
+      font-size: 14px;
+      display: inline-block;
+      span {
+        font-weight: 400;
+      }
+    }
+    .wrap {
+      width: 49%;
+      display: inline-block;
+      font-size: 12px;
+      @media only screen and (max-width: 992px) {
+        width: 100%;
+        p {
+          display: block;
+        }
+      }
+    }
+    .price {
+      font-size: 36px;
+      span {
+        font-size: 18px;
+        margin-top: 4px;
+        position: absolute;
+      }
+    }
+  }
+  .cell-btn {
+    padding: 0;
+    text-align: right;
+  }
+  .cta {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 300;
+    margin-bottom: 50px;
+    a {
+      color: $blue-color;
+      &:hover {
+        color: #23527c;
+      }
+    }
+  }
+}
+
 /*****************************************breadcrumbs**cart01************************/
 /************************************************************************************/
 .breadcrumbs {
